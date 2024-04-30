@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-phih(@*nmjd16bu6hw0%09&qs(#xz7j4ucx(jwps02p)^0!ab4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','product-test.up.railway.app']
+ALLOWED_HOSTS = ['127.0.0.1','product-test.up.railway.app','.vercel.app']
 CSRF_TRUSTED_ORIGINS = ['https://product-test.up.railway.app']
 
 # Application definition
