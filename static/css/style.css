@@ -1,0 +1,31 @@
+.product-img {
+    height: 200px; /* Set a fixed height for the images */
+    background-position: center;
+    
+}
+
+.product-card {
+    height: 100%;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust opacity as needed */
+    border: 1px solid;
+    box-shadow: 1.3rem 1.3rem, 1.3rem rgba(0,0,0,0.5);
+    transition: background-color 0.3s ease-in-out;
+    padding: 10px;
+    border-top-color: rgba(225, 225, 225, 0.5);
+    border-left-color: rgba(225, 225, 225, 0.5);
+    border-bottom-color: rgba(225, 225, 225, 0.1);
+    border-right-color: rgba(225, 225, 225, 0.1);
+    
+}
+
+@media (max-width: 414px) {
+    .product-img {
+        height: 150px; /* Adjust the height for small screens */
+        width: 150px;
+    }
+}
+
+.card-body {
+    flex: 1; /* Allow the content to expand to fill available space */
+}
